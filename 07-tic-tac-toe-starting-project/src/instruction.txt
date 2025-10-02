@@ -1,0 +1,10 @@
+
+------ zadanie 1
+
+klikajac w przycis edit chcemy zeby pole input (input ma byc type text i required) stalo sie aktywne i mozna bylo tam wpisac imie uzytkownika
+jak klikniemy przycis edit to ma sie zmienic jego nazwa na save
+
+uzyjmy w stanie true false, w jednym wariancie pokazujemy span z name a w innym input do wpisania
+jak mamy true i false to mozna to ogarnac ternary operatorem, ale tym razem zrobmy inaczej, wyciagnijmy to do zmiennej nad return
+
+jak kedziemy odwracac true na false to nie mozemy tego tak robic np tak  setIsEditing(!isEditing) zadziala ale tak nie wolno robic, wiecej w one note
